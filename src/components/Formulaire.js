@@ -25,7 +25,6 @@ class Formulaire extends React.Component {
 
   compteur = event => {
     const length = this.props.length - this.message.value.length;
-    console.log(length);
     this.setState({ length });
   }
 
